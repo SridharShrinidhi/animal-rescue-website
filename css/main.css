@@ -1,0 +1,126 @@
+html {
+  font-family: Sniglet, cursive;
+  font-family: "Caveat Brush", cursive;
+}
+
+.s {
+  font-family: Sniglet, cursive;
+}
+
+.c {
+  font-family: "Caveat Brush", cursive;
+}
+
+header {
+  overflow: hidden;
+}
+
+.list1 {
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+
+.list2 {
+  position: absolute;
+  left: 20%;
+  top: 0;
+}
+
+.list3 {
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
+
+.list4 {
+  position: absolute;
+  right: 30%;
+  top: 0;
+}
+
+.list5 {
+  position: absolute;
+  right: 20%;
+  top: 0;
+}
+
+.list6 {
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.w {
+  color: #fff;
+}
+
+.o {
+  background-color: #EB8A53;
+  border: none;
+}
+
+span {
+  color: #EB8A53;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .banner-img {
+    position: relative;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 4em;
+    left: 2em;
+  }
+
+  .s-btn {
+    position: absolute;
+    top: 10.5rem;
+    left: 4em;
+  }
+
+  .v {
+    display: block;
+  }
+
+  .h {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-text {
+    position: absolute;
+    top: 6em;
+    left: 2em;
+  }
+
+    .s-btn {
+      position: absolute;
+      top: 5rem;
+      left: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .v {
+    display: none;
+  }
+
+  .h {
+    display: block;
+  }
+
+}
