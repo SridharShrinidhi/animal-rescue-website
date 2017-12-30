@@ -1,82 +1,174 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+
 <head>
   <meta charset="utf-8">
   <title>AVAILABLE PETS</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/type.css" rel="stylesheet">
+    <link href="css/modules.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
+    <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Sniglet" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-  <a class="absolute pin-tc i-64" href="index.html">
+  <header>
+    <a class="absolute pin-tc icon i-128" href="index.html">
     <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
   </a>
-  <nav class="">
-    <ul class="text-center list-group-inline">
-      <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
-      <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
-      <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt.html">ADOPT</a></li>
-      <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
-      <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
-      <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
+    <nav class="">
+      <ul class="text-center list-group-inline">
+        <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
+        <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
+        <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt.html">ADOPT</a></li>
+        <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
+        <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
+        <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="push">
+      <div class="relative">
+        <img class="img-flex" src="images/rescue-banner.jpg" alt="Labrador smiling">
+      </div>
+      <div>
+        <div class="text">
+          <h1 class="c peta not-bold push-none ">Pet of the month</h1>
+          <p class="kilo push-half s">Ginger</p>
+          <div class="btn o text-center">
+            <a class="w not-bold micro" href="adopt.html">Take me home</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="text-center zetta push-none">Available pets</h3>
+      <div>
+        <ul class="list-group-inline text-center">
+          <li class="list-group-item">
+            <form>
+              <div class="island push-half">
+                <label class="milli s pad-bottom-quarter" for="breed">Breed</label>
+                <select class="o" id="breed" name="breed">
+                  <option value="" class="all">Select breed</option>
+                  <option class="gs">German Shepherd</option>
+                  <option class="l">Labrador</option>
+                  <option class="r">Poodle</option>
+                  <option class="sh">Siberian Husky</option>
+                  <option class="gr">Golden Retriever</option>
+                  <option class="bc">Border Collie</option>
+                  <option class="p">Pomeranian</option>
+                  <option class="em">English Mastiff</option>
+                </select>
+              </div>
+            </form>
+          </li>
+          <li class="list-group-item">
+            <form>
+              <div class="island push-half">
+                <label class="milli s pad-bottom-quarter" for="breed">Age</label>
+                <select class="o" id="breed" name="breed">
+                  <option value="">Select Age </option>
+                  <option class="one">< 1 yrs </option>
+                  <option class="two">1-3 yrs </option>
+                  <option class="three">3< yrs </option>
+                </select>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="push">
+      <div class="grid">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half bc">
+          <div class="embed embed-2by3 push">
+            <img class="embed-item" src="images/pet-1.jpg" alt="Grown Border Collier">
+          </div>
+          <div class="btn o text-center">
+            <a class="w not-bold micro" href="adopt.html">Adopt Rusty</a>
+          </div>
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half sh">
+        <div class="embed embed-2by3 push">
+          <img class="embed-item" src="images/pet-2.jpg" alt="Siberian Husky">
+        </div>
+        <div class="btn o text-center">
+          <a class="w not-bold micro" href="adopt.html">Adopt Pepper</a>
+        </div>
+      </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half poodle">
+        <div class="embed embed-2by3 push">
+          <img class="embed-item" src="images/pet-3.jpg" alt="Poodle">
+        </div>
+        <div class="btn o text-center">
+          <a class="w not-bold micro" href="adopt.html">Adopt Brownie</a>
+        </div>
+      </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half p">
+        <div class="embed embed-2by3 push">
+          <img class="embed-item" src="images/pet-4.jpg" alt="Pomeranian">
+        </div>
+        <div class="btn o text-center">
+          <a class="w not-bold micro" href="adopt.html">Adopt Salt</a>
+        </div>
+      </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half bc">
+        <div class="embed embed-2by3 push">
+          <img class="embed-item" src="images/pet-5.jpg" alt="Small Border Collier">
+        </div>
+        <div class="btn o text-center">
+          <a class="w not-bold micro" href="adopt.html">Adopt Frizzy</a>
+        </div>
+      </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half em">
+        <div class="embed embed-2by3 push">
+          <img class="embed-item" src="images/pet-6.jpg" alt="Small English Mastiff">
+        </div>
+        <div class="btn o text-center">
+          <a class="w not-bold micro" href="adopt.html">Adopt Cilantro</a>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="o">
+    <div class="grid island text-center">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <ul class="list-group">
+          <li class="block micro s"><a href="#about">About</a></li>
+          <li class="block micro s"><a href="rescues.html">Pets</a></li>
+          <li class="block micro s"><a href="adopt.html">Adopt</a></li>
+        </ul>
+      </div>
+
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+        <ul class="list-group">
+          <li class="block micro s"><a href="#">Donate</a></li>
+          <li class="block micro s"><a href="#">FAQ</a></li>
+          <li class="block micro s"><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="list-group-inline text-center push-none pad-b">
+      <li class="text-center micro s gutter"><a href="">facebook</a></li>
+      <li class="text-center micro s gutter"><a href="">instagram</a></li>
+      <li class="text-center micro s gutter"><a href="">twitter</a></li>
     </ul>
-  </nav>
 
-</header>
-
-<main>
-  <h1>Available Pets</h1>
-  <section>
-  <div clas="">
-    <img class="img-flex" src="images/rescue-banner.jpg" alt="Labrador smiling">
-  </div>
-  <div class="relative">
-    <div class=" absolute pin-tr ">
-    <h2 class="c yotta">Pet of the month</h2>
-    <p class="mega">Ginger</p>
-    <div class="btn s-btn o">
-      <a class="w not-bold micro" href="adopt.html">Take me home</a>
-    </div>
-  </div>
-  </div>
-  </section>
-
-  <section>
-
-  </section>
-</main>
-
-
-<footer class="o">
-  <div class="grid island text-center">
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-      <ul class="list-group">
-        <li class="block micro s"><a href="#about">About</a></li>
-        <li class="block micro s"><a href="rescues.html">Pets</a></li>
-        <li class="block micro s"><a href="adopt.html">Adopt</a></li>
-      </ul>
-    </div>
-
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-      <ul class="list-group">
-        <li class="block micro s"><a href="#">Donate</a></li>
-        <li class="block micro s"><a href="#">FAQ</a></li>
-        <li class="block micro s"><a href="#">Privacy policy</a></li>
-      </ul>
-    </div>
-  </div>
-  <ul class="list-group-inline text-center push-none pad-b">
-    <li class="text-center micro s gutter"><a href="">facebook</a></li>
-    <li class="text-center micro s gutter"><a href="">instagram</a></li>
-    <li class="text-center micro s gutter"><a href="">twitter</a></li>
-  </ul>
-
-</footer>
+  </footer>
 
 </body>
+
 </html>

@@ -138,6 +138,17 @@ main {
   background-image: url("../images/bg.svg");
 }
 
+.text {
+  position: absolute;
+  top: 5em;
+  right: 3em;
+  color: #fff;
+}
+
+.u {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 20em) {
 
   .banner-img {
