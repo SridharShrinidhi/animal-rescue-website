@@ -10,6 +10,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Sniglet" rel="stylesheet">
+  <link href="favicon.ico" rel="shortcut icon">
 </head>
 
 <body>
@@ -92,18 +93,18 @@
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
             <label class="milli s pad-bottom-quarter" for="name">Full name</label>
-            <input class="box" id="name" name="name">
+            <input id="name" name="name">
             <p class="italic micro">Your full legal name. e.g. “Elizabeth Bradley”.</p>
           </div>
 
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
             <label class="milli s pad-bottom-quarter" for="date">Date of birth</label>
-            <input class="box" id="date" type="date" name="date">
+            <input id="date" type="date" name="date">
           </div>
 
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
             <label class="milli s pad-bottom-quarter" for="email">Email</label>
-            <input class="box" id="email" type="email" name="email">
+            <input id="email" type="email" name="email">
           </div>
 
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
@@ -115,15 +116,15 @@
           <div class="grid">
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 ">
               <label class="milli s pad-bottom-quarter" for="address">Street Address</label>
-              <input class="box" id="address" name="address">
+              <input id="address" name="address">
             </div>
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
               <label class="milli s pad-bottom-quarter" for="stadd">City</label>
-              <input class="box" id="stadd" name="st address">
+              <input id="stadd" name="st address">
             </div>
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
               <label class="milli s pad-bottom-quarter" for="province">Province</label>
-              <select class="box" id="province" name="province">
+              <select id="province" name="province">
                 <option value="">Select a Province</option>
                 <option>Alberta</option>
                 <option>British Columbia</option>
@@ -146,40 +147,41 @@
             </div>
           </div>
         </div>
+      </fieldset>
 
 
         <fieldset class="push-none pad-top-half">
           <legend class="pad-bottom-quarter bold gutter-half yotta">Pet care</legend>
           <p class="s push-half gutter-half bold milli">Will the dog be left alone?</p>
           <div class="push-double pad-bottom-half">
-            <input class="box" id="yes1" type="radio" name="leftalone">
-            <label class=s gutter-half " for="yes1 ">Yes</label>
-            <input class="box " id="no1 " type="radio " name="leftalone ">
-            <label class=s gutter-half" for="no1">No</label>
+            <input id="yes1" type="radio" name="leftalone">
+            <label class="s gutter-half" for="yes1">Yes</label>
+            <input id="no1" type="radio" name="leftalone">
+            <label class="s gutter-half" for="no1">No</label>
           </div>
 
           <p class="s push-half gutter-half bold milli">Are you willing to hire a dog/walker or use doggie day care?</p>
           <div class="push-double pad-bottom-half">
-            <input class="box" id="yes2" type="radio" name="daycare">
-            <label class=s gutter-half " for="yes2 ">Yes</label>
-            <input class="box " id="no2 " type="radio " name="daycare ">
-            <label class=s gutter-half" for="no2">No</label>
+            <input id="yes2" type="radio" name="daycare">
+            <label class="s gutter-half" for="yes2">Yes</label>
+            <input class="box" id="no2" type="radio" name="daycare ">
+            <label class="s gutter-half" for="no2">No</label>
           </div>
 
           <p class="s push-half gutter-half bold milli">Are you willing to give the dog a good long walk at least twice a day - everyday?</p>
           <div class="push-double pad-bottom-half">
-            <input class="box" id="yes3" type="radio" name="longwalk">
-            <label class=s gutter-half " for="yes3 ">Yes</label>
-            <input class="box " id="no3 " type="radio " name="longwalk ">
-            <label class=s gutter-half" for="no3">No</label>
+            <input id="yes3" type="radio" name="longwalk">
+            <label class="s gutter-half" for="yes3 ">Yes</label>
+            <input class="box" id="no3" type="radio" name="longwalk">
+            <label class="s gutter-half" for="no3">No</label>
           </div>
 
           <p class="s push-half gutter-half bold milli">Does anyone in your home suffer from allergies?</p>
           <div class="push-double pad-bottom-half">
-            <input class="box" id="yes4" type="radio" name="allergies">
-            <label class=s gutter-half " for="yes4 ">Yes</label>
-            <input class="box " id="no4 " type="radio " name="allergies ">
-            <label class=s gutter-half" for="no4">No</label>
+            <input id="yes4" type="radio" name="allergies">
+            <label class="s gutter-half" for="yes4">Yes</label>
+            <input class="box" id="no4" type="radio" name="allergies">
+            <label class="s gutter-half" for="no4">No</label>
           </div>
 
           <p class="s push-half gutter-half bold milli">Where will your dog stay during the day?</p>
@@ -275,16 +277,16 @@
 
           <p class="s push-half gutter-half bold milli">Do you :</p>
           <div class="push-double pad-bottom-half">
-            <input class="box" id="yes5" type="radio" name="own">
+            <input id="yes5" type="radio" name="own">
             <label class="s gutter-half" for="yes5">Own</label>
-            <input class="box" id="no5" type="radio" name="own">
+            <input id="no5" type="radio" name="own">
             <label class="s gutter-half" for="no5">Rent</label>
           </div>
           <p class="s push-half gutter-half bold milli">Do you have your landlord’s/strata’s permission to have pets?</p>
           <div class="push-double pad-bottom-half">
-            <input class="box" id="yes6" type="radio" name="permission">
+            <input id="yes6" type="radio" name="permission">
             <label class="s gutter-half" for="yes6">Yes</label>
-            <input class="box" id="no6" type="radio" name="permission">
+            <input id="no6" type="radio" name="permission">
             <label class="s gutter-half" for="no6">No</label>
           </div>
         </fieldset>
@@ -294,13 +296,13 @@
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="name2">Full name</label>
-              <input class="box" id="name2" name="name">
+              <input id="name2" name="name">
               <p class="s italis micro">Your full legal name. e.g. “Elizabeth Bradley”.</p>
             </div>
 
             <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="email2">Email</label>
-              <input class="box" id="email2" type="email" name="email2">
+              <input id="email2" type="email" name="email2">
             </div>
 
             <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
@@ -310,11 +312,11 @@
 
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 ">
               <label class="milli s pad-bottom-quarter" for="address2">Street Address</label>
-              <input class="box" id="address2" name="address2">
+              <input id="address2" name="address2">
             </div>
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
               <label class="milli s pad-bottom-quarter" for="stadd2">City</label>
-              <input class="box" id="stadd2" name="st address2">
+              <input id="stadd2" name="st address2">
             </div>
           </div>
 
@@ -322,13 +324,13 @@
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="name3">Full name</label>
-              <input class="box" id="name3" name="name3">
+              <input id="name3" name="name3">
               <p class="s italis micro">Your full legal name. e.g. “Elizabeth Bradley”.</p>
             </div>
 
             <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="email3">Email</label>
-              <input class="box" id="email3" type="email" name="email3">
+              <input id="email3" type="email" name="email3">
             </div>
 
             <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
@@ -338,11 +340,11 @@
 
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 ">
               <label class="milli s pad-bottom-quarter" for="address3">Street Address</label>
-              <input class="box" id="address3" name="address3">
+              <input id="address3" name="address3">
             </div>
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
               <label class="milli s pad-bottom-quarter" for="stadd3">City</label>
-              <input class="box" id="stadd3" name="st address2">
+              <input id="stadd3" name="st address2">
             </div>
           </div>
 
@@ -350,13 +352,13 @@
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="name4">Full name</label>
-              <input class="box" id="name4" name="name">
+              <input id="name4" name="name">
               <p class="s italis micro">Your full legal name. e.g. “Elizabeth Bradley”.</p>
             </div>
 
             <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="email4">Email</label>
-              <input class="box" id="email4" type="email" name="email2">
+              <input id="email4" type="email" name="email2">
             </div>
 
             <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
@@ -367,11 +369,11 @@
 
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 ">
               <label class="milli s pad-bottom-quarter" for="address4">Street Address</label>
-              <input class="box" id="address4" name="address4">
+              <input id="address4" name="address4">
             </div>
             <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
               <label class="milli s pad-bottom-quarter" for="stadd4">City</label>
-              <input class="box" id="stadd4" name="st address4">
+              <input id="stadd4" name="st address4">
             </div>
           </div>
 

@@ -75,7 +75,20 @@ li {
 }
 
 .btn a {
+  color: #000;
+}
+
+.btn:hover,
+.btn-light:hover {
+  background-color: #000;
+}
+
+.btn a:hover {
   color: #fff;
+}
+
+a:focus {
+  outline: none;
 }
 
 .nav {
