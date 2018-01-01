@@ -204,49 +204,6 @@
 
   </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script>
-    function breedChanged() {
-      var breed = document.getElementById('breed').value;
-
-      if (breed == "all") {
-        $.each($("#breeds").children(), function(i, val) {
-          $(val).removeClass("hidden");
-        })
-      } else {
-        $.each($("#breeds").children(), function(i, val) {
-          if (!$(val).hasClass(breed) && !$(val).hasClass('hidden')) {
-            $(val).addClass('hidden');
-          }
-
-          if ($(val).hasClass(breed) && $(val).hasClass('hidden')) {
-            $(val).removeClass("hidden");
-          }
-        })
-      }
-    }
-
-    function ageChanged() {
-      var age = document.getElementById('ages').value;
-
-      if (age == "all") {
-        $.each($("#breeds").children(), function(i, val) {
-          $(val).removeClass("age-hidden");
-        })
-      } else {
-        $.each($("#breeds").children(), function(i, val) {
-          if (!$(val).hasClass(age) && !$(val).hasClass('age-hidden')) {
-            $(val).addClass('age-hidden');
-          }
-
-          if ($(val).hasClass(age) && $(val).hasClass('age-hidden')) {
-            $(val).removeClass("age-hidden");
-          }
-        })
-      }
-    }
-  </script>
-
 </body>
 
 </html>
