@@ -14,39 +14,43 @@
 
 <body>
 
-  <header class="relative pad-b">
-    <a class="absolute pin-tc icon i-128" href="index.html">
-      <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
-    </a>
+  <header>
 
-<div class="">
-  <input type="checkbox" class="nav-check" id="nav-check">
-  <label class="nav-label absolute pin-tr pad-top" for="nav-check">
-    <img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation">
-  </label>
+    <div class="hide">
+      <a class="absolute pin-tc icon i-96" href="index.html">
+        <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
+      </a>
+      <nav class="zindex-3 pad-top-half push-none">
+        <ul class="text-center list-group-inline">
+          <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
+          <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="available-rescues.html">PETS</a></li>
+          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt-a-rescue.html">ADOPT</a></li>
+          <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
+          <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
+          <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
+        </ul>
+      </nav>
+    </div>
 
-  <nav class="show nav zindex-3 w-1 small visible">
-    <ul class="text-center list-group-inline">
-      <li class="list-group-item island-double"><a class="c mega gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
-      <li class="list-group-item island-double"><a class="c mega gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
-      <li class="list-group-item island-double"><a class="c mega gutter-half pad-t pad-b" href="adopt.html">ADOPT</a></li>
-      <li class="list-group-item island-double"><a class="c mega gutter-half pad-t pad-b" href="#">DONATE</a></li>
-      <li class="list-group-item island-double"><a class="c mega gutter-half pad-t pad-b" href="#">FAQ</a></li>
-      <li class="list-group-item island-double"><a class="c mega gutter-half pad-t pad-b" href="#">SHOP</a></li>
-    </ul>
-  </nav>
-</div>
-
-    <nav class="hide">
-      <ul class="text-center list-group-inline">
-        <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
-        <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
-        <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt.html">ADOPT</a></li>
-        <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
-        <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
-        <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
-      </ul>
-    </nav>
+    <div class="absolute w-1 pin-tr zindex-3 small visible">
+      <a class="absolute pin-tl icon i-96 none" href="index.html">
+        <img class="text-center pad-t-1-2 pad-b push" src="images/bars-logo.svg" alt="BARS logo">
+      </a>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label pin-tr pad-top gutter-half" for="nav-check">
+        <img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation">
+      </label>
+      <nav class="nav zindex-3 island-half push-none b" id="nav">
+        <ul class="list-group-inline island-double">
+          <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a class="tera text-center" href="#about">About</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="available-rescues.html">Pets</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="adopt-a-rescue">Adopt</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="#">Donate</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#">FAQ</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </div>
 
   </header>
 
@@ -91,7 +95,8 @@
 
         <div class="unit xs-1 s-1 m-1 l-1-2 island left">
           <p class="kilo push-half s">We have always volunteered in rescues and it was time for us to start his adventure. The resources, food, medical-aid are solely out of your pockets and every donation matters. All your donations go towards making the lives of our precious creatures
-            better.</p>
+            better.
+          </p>
           <span>DONATE</span>
         </div>
 

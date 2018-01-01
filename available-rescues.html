@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <title>AVAILABLE PETS</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/modules.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Sniglet" rel="stylesheet">
 </head>
@@ -15,25 +15,48 @@
 <body>
 
   <header>
-    <a class="absolute pin-tc icon i-128" href="index.html">
-    <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
-  </a>
-    <nav class="">
-      <ul class="text-center list-group-inline">
-        <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
-        <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="available-rescues.html">PETS</a></li>
-        <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt-a-rescue.html">ADOPT</a></li>
-        <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
-        <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
-        <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
-      </ul>
-    </nav>
+
+    <div class="hide">
+      <a class="absolute pin-tc icon i-96" href="index.html">
+        <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
+      </a>
+      <nav class="zindex-3 pad-top-half push-none">
+        <ul class="text-center list-group-inline">
+          <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
+          <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="available-rescues.html">PETS</a></li>
+          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt-a-rescue.html">ADOPT</a></li>
+          <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
+          <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
+          <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="absolute w-1 pin-tr zindex-3 small visible">
+      <a class="absolute pin-tl icon i-96 none" href="index.html">
+        <img class="text-center pad-t-1-2 pad-b push" src="images/bars-logo.svg" alt="BARS logo">
+      </a>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label pin-tr pad-top gutter-half" for="nav-check">
+        <img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation">
+      </label>
+      <nav class="nav zindex-3 island-half push-none b" id="nav">
+        <ul class="list-group-inline island-double">
+          <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a class="tera text-center" href="#about">About</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="available-rescues.html">Pets</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="adopt-a-rescue">Adopt</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="#">Donate</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#">FAQ</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </div>
 
   </header>
 
   <main>
     <section class="push">
-      <div class="relative">
+      <div class="">
         <img class="img-flex" src="images/rescue-banner.jpg" alt="Labrador smiling">
       </div>
       <div>
@@ -99,63 +122,63 @@
           </div>
         </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half sh age-young">
-        <div class="embed embed-2by3 push">
-          <img class="embed-item" src="images/pet-2.jpg" alt="Siberian Husky">
+          <div class="embed embed-2by3 push">
+            <img class="embed-item" src="images/pet-2.jpg" alt="Siberian Husky">
+          </div>
+          <p class="kilo s push-none">Breed: Siberian Husky</p>
+          <p class="kilo s push-half">Age: 2 yrs</p>
+          <div class="btn o text-center">
+            <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Pepper</a>
+          </div>
         </div>
-        <p class="kilo s push-none">Breed: Siberian Husky</p>
-        <p class="kilo s push-half">Age: 2 yrs</p>
-        <div class="btn o text-center">
-          <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Pepper</a>
-        </div>
-      </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half poodle age-young">
-        <div class="embed embed-2by3 push">
-          <img class="embed-item" src="images/pet-3.jpg" alt="Poodle">
+          <div class="embed embed-2by3 push">
+            <img class="embed-item" src="images/pet-3.jpg" alt="Poodle">
+          </div>
+          <p class="kilo s push-none">Breed: Poodle</p>
+          <p class="kilo s push-half">Age: 1.5 yrs</p>
+          <div class="btn o text-center">
+            <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Brownie</a>
+          </div>
         </div>
-        <p class="kilo s push-none">Breed: Poodle</p>
-        <p class="kilo s push-half">Age: 1.5 yrs</p>
-        <div class="btn o text-center">
-          <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Brownie</a>
-        </div>
-      </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half p age-young">
-        <div class="embed embed-2by3 push">
-          <img class="embed-item" src="images/pet-4.jpg" alt="Pomeranian">
+          <div class="embed embed-2by3 push">
+            <img class="embed-item" src="images/pet-4.jpg" alt="Pomeranian">
+          </div>
+          <p class="kilo s push-none">Breed: Pomeranian</p>
+          <p class="kilo s push-half">Age: 1 yr</p>
+          <div class="btn o text-center">
+            <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Salt</a>
+          </div>
         </div>
-        <p class="kilo s push-none">Breed: Pomeranian</p>
-        <p class="kilo s push-half">Age: 1 yr</p>
-        <div class="btn o text-center">
-          <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Salt</a>
-        </div>
-      </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half bc age-puppy">
-        <div class="embed embed-2by3 push">
-          <img class="embed-item" src="images/pet-5.jpg" alt="Small Border Collier">
+          <div class="embed embed-2by3 push">
+            <img class="embed-item" src="images/pet-5.jpg" alt="Small Border Collier">
+          </div>
+          <p class="kilo s push-none">Breed: Border Collier</p>
+          <p class="kilo s push-half">Age: 6 months</p>
+          <div class="btn o text-center">
+            <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Frizzy</a>
+          </div>
         </div>
-        <p class="kilo s push-none">Breed: Border Collier</p>
-        <p class="kilo s push-half">Age: 6 months</p>
-        <div class="btn o text-center">
-          <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Frizzy</a>
-        </div>
-      </div>
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half em age-young">
-        <div class="embed embed-2by3 push">
-          <img class="embed-item" src="images/pet-6.jpg" alt="Small English Mastiff">
+          <div class="embed embed-2by3 push">
+            <img class="embed-item" src="images/pet-6.jpg" alt="Small English Mastiff">
+          </div>
+          <p class="kilo s push-none">Breed: English Mastiff</p>
+          <p class="kilo s push-half">Age: 1.2 yrs</p>
+          <div class="btn o text-center">
+            <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Cilantro</a>
+          </div>
         </div>
-        <p class="kilo s push-none">Breed: English Mastiff</p>
-        <p class="kilo s push-half">Age: 1.2 yrs</p>
-        <div class="btn o text-center">
-          <a class="w not-bold micro" href="adopt-a-rescue.html">Adopt Cilantro</a>
-        </div>
-      </div>
       </div>
 
     </section>
 
   </main>
 
-
   <footer class="o">
+
     <div class="grid island text-center">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
         <ul class="list-group">
@@ -181,47 +204,47 @@
 
   </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-  function breedChanged() {
-    var breed = document.getElementById('breed').value;
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    function breedChanged() {
+      var breed = document.getElementById('breed').value;
 
-    if (breed == "all") {
-      $.each($("#breeds").children(), function(i, val) {
-        $(val).removeClass("hidden");
-      })
-    } else {
-      $.each($("#breeds").children(), function(i, val) {
-        if(!$(val).hasClass(breed) && !$(val).hasClass('hidden')) {
-          $(val).addClass('hidden');
-        }
-
-        if ($(val).hasClass(breed) && $(val).hasClass('hidden')) {
+      if (breed == "all") {
+        $.each($("#breeds").children(), function(i, val) {
           $(val).removeClass("hidden");
-        }
-      })
+        })
+      } else {
+        $.each($("#breeds").children(), function(i, val) {
+          if (!$(val).hasClass(breed) && !$(val).hasClass('hidden')) {
+            $(val).addClass('hidden');
+          }
+
+          if ($(val).hasClass(breed) && $(val).hasClass('hidden')) {
+            $(val).removeClass("hidden");
+          }
+        })
+      }
     }
-  }
 
-  function ageChanged() {
-    var age = document.getElementById('ages').value;
+    function ageChanged() {
+      var age = document.getElementById('ages').value;
 
-    if (age == "all") {
-      $.each($("#breeds").children(), function(i, val) {
-        $(val).removeClass("age-hidden");
-      })
-    } else {
-      $.each($("#breeds").children(), function(i, val) {
-        if(!$(val).hasClass(age) && !$(val).hasClass('age-hidden')) {
-          $(val).addClass('age-hidden');
-        }
-
-        if ($(val).hasClass(age) && $(val).hasClass('age-hidden')) {
+      if (age == "all") {
+        $.each($("#breeds").children(), function(i, val) {
           $(val).removeClass("age-hidden");
-        }
-      })
+        })
+      } else {
+        $.each($("#breeds").children(), function(i, val) {
+          if (!$(val).hasClass(age) && !$(val).hasClass('age-hidden')) {
+            $(val).addClass('age-hidden');
+          }
+
+          if ($(val).hasClass(age) && $(val).hasClass('age-hidden')) {
+            $(val).removeClass("age-hidden");
+          }
+        })
+      }
     }
-  }
   </script>
 
 </body>
