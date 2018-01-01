@@ -56,9 +56,9 @@
   </header>
 
   <main class="island" role="main">
-    <h2 class="yotta text-center">Application form</h2>
+    <h1class="yotta text-center">Application form</h1>
     <div>
-      <h3 class="yotta">Steps to follow for adoption:</h3>
+      <h2 class="yotta">Steps to follow for adoption:</h2>
       <ul>
         <li class="mega c">
           Step 1: MEET THE DOGS
@@ -149,97 +149,96 @@
         </div>
       </fieldset>
 
+      <fieldset class="push-none pad-top-half">
+        <legend class="pad-bottom-quarter bold gutter-half yotta">Pet care</legend>
+        <p class="s push-half gutter-half bold milli">Will the dog be left alone?</p>
+        <div class="push-double pad-bottom-half">
+          <input id="yes1" type="radio" name="leftalone">
+          <label class="s gutter-half" for="yes1">Yes</label>
+          <input id="no1" type="radio" name="leftalone">
+          <label class="s gutter-half" for="no1">No</label>
+        </div>
 
-        <fieldset class="push-none pad-top-half">
-          <legend class="pad-bottom-quarter bold gutter-half yotta">Pet care</legend>
-          <p class="s push-half gutter-half bold milli">Will the dog be left alone?</p>
-          <div class="push-double pad-bottom-half">
-            <input id="yes1" type="radio" name="leftalone">
-            <label class="s gutter-half" for="yes1">Yes</label>
-            <input id="no1" type="radio" name="leftalone">
-            <label class="s gutter-half" for="no1">No</label>
-          </div>
+        <p class="s push-half gutter-half bold milli">Are you willing to hire a dog/walker or use doggie day care?</p>
+        <div class="push-double pad-bottom-half">
+          <input id="yes2" type="radio" name="daycare">
+          <label class="s gutter-half" for="yes2">Yes</label>
+          <input class="box" id="no2" type="radio" name="daycare ">
+          <label class="s gutter-half" for="no2">No</label>
+        </div>
 
-          <p class="s push-half gutter-half bold milli">Are you willing to hire a dog/walker or use doggie day care?</p>
-          <div class="push-double pad-bottom-half">
-            <input id="yes2" type="radio" name="daycare">
-            <label class="s gutter-half" for="yes2">Yes</label>
-            <input class="box" id="no2" type="radio" name="daycare ">
-            <label class="s gutter-half" for="no2">No</label>
-          </div>
+        <p class="s push-half gutter-half bold milli">Are you willing to give the dog a good long walk at least twice a day - everyday?</p>
+        <div class="push-double pad-bottom-half">
+          <input id="yes3" type="radio" name="longwalk">
+          <label class="s gutter-half" for="yes3">Yes</label>
+          <input class="box" id="no3" type="radio" name="longwalk">
+          <label class="s gutter-half" for="no3">No</label>
+        </div>
 
-          <p class="s push-half gutter-half bold milli">Are you willing to give the dog a good long walk at least twice a day - everyday?</p>
-          <div class="push-double pad-bottom-half">
-            <input id="yes3" type="radio" name="longwalk">
-            <label class="s gutter-half" for="yes3">Yes</label>
-            <input class="box" id="no3" type="radio" name="longwalk">
-            <label class="s gutter-half" for="no3">No</label>
-          </div>
+        <p class="s push-half gutter-half bold milli">Does anyone in your home suffer from allergies?</p>
+        <div class="push-double pad-bottom-half">
+          <input id="yes4" type="radio" name="allergies">
+          <label class="s gutter-half" for="yes4">Yes</label>
+          <input class="box" id="no4" type="radio" name="allergies">
+          <label class="s gutter-half" for="no4">No</label>
+        </div>
 
-          <p class="s push-half gutter-half bold milli">Does anyone in your home suffer from allergies?</p>
-          <div class="push-double pad-bottom-half">
-            <input id="yes4" type="radio" name="allergies">
-            <label class="s gutter-half" for="yes4">Yes</label>
-            <input class="box" id="no4" type="radio" name="allergies">
-            <label class="s gutter-half" for="no4">No</label>
+        <p class="s push-half gutter-half bold milli">Where will your dog stay during the day?</p>
+        <div class="grid push-half">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="inside" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="inside">Loose in the house?</label>
           </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="crated" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="crated">Crated inside</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="garage" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="garage">Garage</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="kennel" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="kennel">Fenced kennel</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="fencedyard" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="fencedyard">Fenced yard</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="outside" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="outside">Loose outside</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="other" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="other">Other:</label>
+          </div>
+        </div>
 
-          <p class="s push-half gutter-half bold milli">Where will your dog stay during the day?</p>
-          <div class="grid push-half">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="inside" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="inside">Loose in the house?</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="crated" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="crated">Crated inside</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="garage" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="garage">Garage</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="kennel" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="kennel">Fenced kennel</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="fencedyard" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="fencedyard">Fenced yard</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="outside" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="outside">Loose outside</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="other" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="other">Other:</label>
-            </div>
+        <p class="s gutter-half pad-top push-half milli">What activities do you enjoy doing with your dog?</p>
+        <div class="grid push-half">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="walking" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="walking">On-leash walking</label>
           </div>
-
-          <p class="s gutter-half pad-top push-half milli">What activities do you enjoy doing with your dog?</p>
-          <div class="grid push-half">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="walking" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="walking">On-leash walking</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="off-leash" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="off-leash">Off-leash walking</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="parks" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="parks">On-leash parks</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="jogging" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="jogging">Jogging</label>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input id="cycling" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="cycling">Cycling</label>
-            </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="off-leash" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="off-leash">Off-leash walking</label>
           </div>
-        </fieldset>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="parks" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="parks">On-leash parks</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="jogging" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="jogging">Jogging</label>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <input id="cycling" type="checkbox">
+            <label class="gutter-half milli s push-quarter" for="cycling">Cycling</label>
+          </div>
+        </div>
+      </fieldset>
 
         <fieldset class="push-none pad-top-half">
           <legend class="pad-bottom-quarter bold gutter-half yotta">Home details</legend>
@@ -290,9 +289,10 @@
             <label class="s gutter-half" for="no6">No</label>
           </div>
         </fieldset>
+
         <fieldset class="push-none pad-top-half">
           <legend class="pad-bottom-quarter bold gutter-half yotta">References</legend>
-          <h4 class="gutter-half">Reference 1</h4>
+          <h3 class="gutter-half">Reference 1</h3>
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="name2">Full name</label>
@@ -320,7 +320,7 @@
             </div>
           </div>
 
-          <h4 class="gutter-half">Reference 2</h4>
+          <h3 class="gutter-half">Reference 2</h3>
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="name3">Full name</label>
@@ -348,7 +348,7 @@
             </div>
           </div>
 
-          <h4 class="gutter-half">Reference 3</h4>
+          <h3 class="gutter-half">Reference 3</h3>
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="milli s pad-bottom-quarter" for="name4">Full name</label>
