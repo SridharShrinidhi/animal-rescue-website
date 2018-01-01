@@ -78,6 +78,10 @@ li {
   color: #000;
 }
 
+a:focus {
+  outline: none;
+}
+
 .btn:hover,
 .btn-light:hover {
   background-color: #000;
@@ -85,10 +89,6 @@ li {
 
 .btn a:hover {
   color: #fff;
-}
-
-a:focus {
-  outline: none;
 }
 
 .nav {
@@ -195,6 +195,7 @@ main {
   header {
     min-height: 80px;
   }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -205,11 +206,11 @@ main {
     left: 2em;
   }
 
-    .s-btn {
-      position: absolute;
-      top: 5rem;
-      left: 1em;
-    }
+  .s-btn {
+    position: absolute;
+    top: 5rem;
+    left: 1em;
+  }
 
 }
 

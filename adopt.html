@@ -15,13 +15,13 @@
 
 <body>
 
-  <header>
+  <header role="banner">
 
     <div class="hide">
       <a class="absolute pin-tc icon i-96" href="index.html">
         <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
       </a>
-      <nav class="zindex-3 pad-top-half push-none">
+      <nav class="zindex-3 pad-top-half push-none" role="navigation">
         <ul class="text-center list-group-inline">
           <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
           <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="available-rescues.html">PETS</a></li>
@@ -55,7 +55,7 @@
 
   </header>
 
-  <main class="island">
+  <main class="island" role="main">
     <h2 class="yotta text-center">Application form</h2>
     <div>
       <h3 class="yotta">Steps to follow for adoption:</h3>
@@ -86,7 +86,7 @@
       <p class="milli">Each adoption costs $400 + HST. Includes vaccination and basic medical aid.</p>
     </div>
 
-    <form id="app">
+    <form id="app" method="POST" action="https://formspree.io/srid0002@algonquinlive.com">
       <fieldset class="push-none pad-top-half">
         <legend class="pad-bottom-quarter bold gutter-half yotta c">Personal details</legend>
 
@@ -171,7 +171,7 @@
           <p class="s push-half gutter-half bold milli">Are you willing to give the dog a good long walk at least twice a day - everyday?</p>
           <div class="push-double pad-bottom-half">
             <input id="yes3" type="radio" name="longwalk">
-            <label class="s gutter-half" for="yes3 ">Yes</label>
+            <label class="s gutter-half" for="yes3">Yes</label>
             <input class="box" id="no3" type="radio" name="longwalk">
             <label class="s gutter-half" for="no3">No</label>
           </div>
@@ -212,7 +212,7 @@
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <input id="other" type="checkbox">
-              <label class="gutter-half milli s push-quarter" for="other">Other:<textarea id="other" rows="1" name="other"></textarea></label>
+              <label class="gutter-half milli s push-quarter" for="other">Other:</label>
             </div>
           </div>
 
@@ -392,7 +392,7 @@
 
     </form>
 
-    <footer class="o">
+    <footer class="o" role="contentinfo">
       <div class="grid island text-center">
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
           <ul class="list-group">

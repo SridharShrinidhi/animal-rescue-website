@@ -18,23 +18,23 @@
   <header role="banner">
 
     <div class="hide">
-      <a class="absolute pin-tc icon i-96" href="index.html">
+      <a aria-label="Links to homepage" class="absolute pin-tc icon i-96" href="index.html">
         <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
       </a>
       <nav role="navigation" class="zindex-3 pad-top-half push-none" id="nav">
         <ul class="text-center list-group-inline">
-          <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
-          <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="available-rescues.html">PETS</a></li>
-          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt-a-rescue.html">ADOPT</a></li>
-          <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
-          <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
-          <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
+          <li class="list-group-item"><a aria-label="Read more about the rescue centre" class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
+          <li class="list-group-item"><a aria-label="Find available rescues" class="c mega list2 gutter-half pad-t pad-b" href="available-rescues.html">PETS</a></li>
+          <li class="list-group-item"><a aria-label="Adopt a rescue" class="c mega list3 gutter-half pad-t pad-b" href="adopt-a-rescue.html">ADOPT</a></li>
+          <li class="list-group-item"><a aria-label="Donate to the rescue" class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
+          <li class="list-group-item"><a aria-label="Frequenty asked questions" class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
+          <li class="list-group-item"><a aria-label="Shop their merchandise" class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
         </ul>
       </nav>
     </div>
 
     <div class="absolute w-1 pin-tr zindex-3 small visible">
-      <a class="absolute pin-tl icon i-96 none" href="index.html">
+      <a aria-label="Link to the homepage" class="absolute pin-tl icon i-96 none" href="index.html">
         <img class="text-center pad-t-1-2 pad-b push" src="images/bars-logo.svg" alt="BARS logo">
       </a>
       <input type="checkbox" class="nav-check" id="nav-check">
@@ -43,12 +43,12 @@
       </label>
       <nav role="navigation" class="nav zindex-3 island-half push-none b">
         <ul class="list-group-inline island-double">
-          <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a class="tera text-center" href="#about">About</a></li>
-          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="available-rescues.html">Pets</a></li>
-          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="adopt-a-rescue">Adopt</a></li>
-          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="#">Donate</a></li>
-          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#">FAQ</a></li>
-          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#">Shop</a></li>
+          <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a aria-label="Read more about the rescue centre" class="tera text-center" href="#about">About</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a aria-label="Available rescues" class="tera text-center" href="available-rescues.html">Pets</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a aria-label="Adopt a rescue" class="tera text-center" href="adopt-a-rescue">Adopt</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a aria-label="Doante to the rescue" class="tera text-center" href="#">Donate</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a aria-label="Frequently asked questions" class="tera text-center" href="#">FAQ</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a aria-label="Shop their merchandise" class="tera text-center" href="#">Shop</a></li>
         </ul>
       </nav>
     </div>
@@ -62,7 +62,7 @@
     <div class="banner-text island-half">
       <h1 class="yotta c w push-half not-bold">ALL WE NEED is YOUR <span>LOVE</span></h1>
       <div class="btn btn-light s-btn o">
-        <a class="w not-bold micro" href="adopt.html">Take me home</a>
+        <a aria-label="Adopt the puppy" class="w not-bold micro" href="adopt.html">Take me home</a>
       </div>
     </div>
 
@@ -106,9 +106,9 @@
 
     <section class="text-center island ">
       <p class="push-none">Subscribe to our newsletter on pet-care tips, pet adoption</p>
-      <form class="gutter">
+      <form class="gutter" method="POST" action="https://formspree.io/srid0002@algonquinlive.com">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-half gutter">
-          <input class="box" id="email" type="email" name="email">
+          <input id="email" type="email" name="email">
         </div>
         <div class="text-center pad-top-half">
           <button class="btn btn-light o push gutter-half text-center kilo" type="submit">Subscribe</button>
@@ -117,7 +117,7 @@
     </section>
   </main>
 
-  <footer class="o">
+  <footer class="o" role="contentinfo">
     <div class="grid island text-center">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
         <ul class="list-group">
