@@ -31,7 +31,7 @@
         <ul class="text-center list-group-inline">
           <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
           <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
-          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt.html">ADOPT</a></li>
+          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b current" href="adopt.html">ADOPT</a></li>
           <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#index.html">DONATE</a></li>
           <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#index.html">FAQ</a></li>
           <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#index.html">SHOP</a></li>
@@ -62,16 +62,11 @@
 
   </header>
 
-  <main class="island" role="main" id="main">
-    <h1 class="yotta text-center">Application form</h1>
-    <article>
-      <div class="embed embed-3by2">
-        <img class="embed-item img-flex" src="images/adopt-banner.jpg" alt="Cute puppy playing with a ball">
-      </div>
-    </article>
-    <section>
+  <main role="main" id="main">
+    <section class="island">
+      <h1 class="yotta text-center">Adoption Application</h1>
       <div>
-        <h2 class="yotta pad-top">Steps to follow for adoption:</h2>
+        <h2 class="peta pad-top">Steps to follow for adoption:</h2>
         <ul>
           <li class="mega c">
             Step 1: MEET THE DOGS
@@ -100,7 +95,15 @@
       </div>
     </section>
 
-    <form id="app" action="https://formspree.io/srid0002@algonquinlive.com" role="search">
+    <article>
+      <div class="embed embed-3by2">
+        <img class="embed-item img-flex" src="images/adopt-banner.jpg" alt="Cute puppy playing with a ball">
+      </div>
+    </article>
+
+    <h2 class="yotta island push-none">Application form</h2>
+
+    <form id="app" action="https://formspree.io/srid0002@algonquinlive.com" role="search" class="island-half">
       <fieldset class="push-none pad-top-half">
         <legend class="pad-bottom-quarter bold gutter-half yotta c">Personal details</legend>
 
@@ -400,8 +403,8 @@
         </div>
       </article>
 
-      <div class="text-center pad-top pad-bottom o">
-        <button class="btn btn-light push gutter-double pad-top-half pad-bottom-half text-center mega" type="submit">Submit application</button>
+      <div class="text-center pad-top pad-bottom">
+        <button class="btn btn-light push gutter-double pad-top-half pad-bottom-half text-center mega o" type="submit">Submit application</button>
       </div>
 
     </form>

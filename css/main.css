@@ -79,7 +79,11 @@ li {
 }
 
 a:focus {
-  outline: none;
+  outline: 2px solid #eb8a53;
+}
+
+.current {
+  text-decoration: underline;
 }
 
 .skip-links {
