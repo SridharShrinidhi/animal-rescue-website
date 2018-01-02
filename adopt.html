@@ -10,10 +10,16 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Sniglet" rel="stylesheet">
-  <link href="favicon.ico" rel="shortcut icon">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon image_src" href="favicon.png">
 </head>
 
 <body>
+
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main" tabindex="0">Skip to main</a></li>
+  </ul>
 
   <header role="banner">
 
@@ -24,8 +30,8 @@
       <nav class="zindex-3 pad-top-half push-none" role="navigation">
         <ul class="text-center list-group-inline">
           <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
-          <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="available-rescues.html">PETS</a></li>
-          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt-a-rescue.html">ADOPT</a></li>
+          <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
+          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b" href="adopt.html">ADOPT</a></li>
           <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#">DONATE</a></li>
           <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#">FAQ</a></li>
           <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#">SHOP</a></li>
@@ -44,7 +50,7 @@
       <nav class="nav zindex-3 island-half push-none b" id="nav">
         <ul class="list-group-inline island-double">
           <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a class="tera text-center" href="#about">About</a></li>
-          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="available-rescues.html">Pets</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="rescues.html">Pets</a></li>
           <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="adopt-a-rescue">Adopt</a></li>
           <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="#">Donate</a></li>
           <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#">FAQ</a></li>
@@ -55,36 +61,38 @@
 
   </header>
 
-  <main class="island" role="main">
+  <main class="island" role="main" id="main">
     <h1 class="yotta text-center">Application form</h1>
-    <div>
-      <h2 class="yotta">Steps to follow for adoption:</h2>
-      <ul>
-        <li class="mega c">
-          Step 1: MEET THE DOGS
-          <p class="s milli">Meet-and-greet for you to get to know the dog(s) and ask any questions you may have (temperament energy level, personality, etc).</p>
-        </li>
-        <li class="mega c">
-          Step 2: CHOOSE YOUR DOG
-          <p class="s milli">Select the dog(s) you’d like to adopt<a href="available-rescues.hmtl"> here. </a></p>
-        </li>
-        <li class="mega c">
-          Step 3: SUBMIT THE ADOPTION APPLICATION FORM.
-          <p class="s milli">Complete the <a href="#app">adoption application.</a></p>
-          <p></p>
-        </li>
-        <li class="mega c">
-          Step 4: HOME CHECK
-          <p class="s milli">After you have met the dog(s) and both you and BARS feel that you are a good fit for each other, we will set up a home check which ensures that your home and yard are animal friendly. (Home check can be done when we bring the dog to your home.)</p>
-        </li>
-        <li class="mega c">
-          Step 5: ADOPTION
-          <p class="s milli">After the home check is completed, BARS will bring your new dog(s) to their new home! At this time, you will pay the adoption fee and sign the contract.</p>
-        </li>
-      </ul>
+    <section>
+      <div>
+        <h2 class="yotta">Steps to follow for adoption:</h2>
+        <ul>
+          <li class="mega c">
+            Step 1: MEET THE DOGS
+            <p class="s milli">Meet-and-greet for you to get to know the dog(s) and ask any questions you may have (temperament energy level, personality, etc).</p>
+          </li>
+          <li class="mega c">
+            Step 2: CHOOSE YOUR DOG
+            <p class="s milli">Select the dog(s) you’d like to adopt<a href="available-rescues.hmtl"> here. </a></p>
+          </li>
+          <li class="mega c">
+            Step 3: SUBMIT THE ADOPTION APPLICATION FORM.
+            <p class="s milli">Complete the <a href="#app">adoption application.</a></p>
+            <p></p>
+          </li>
+          <li class="mega c">
+            Step 4: HOME CHECK
+            <p class="s milli">After you have met the dog(s) and both you and BARS feel that you are a good fit for each other, we will set up a home check which ensures that your home and yard are animal friendly. (Home check can be done when we bring the dog to your home.)</p>
+          </li>
+          <li class="mega c">
+            Step 5: ADOPTION
+            <p class="s milli">After the home check is completed, BARS will bring your new dog(s) to their new home! At this time, you will pay the adoption fee and sign the contract.</p>
+          </li>
+        </ul>
 
-      <p class="milli">Each adoption costs $400 + HST. Includes vaccination and basic medical aid.</p>
-    </div>
+        <p class="milli">Each adoption costs $400 + HST. Includes vaccination and basic medical aid.</p>
+      </div>
+    </section>
 
     <form id="app" action="https://formspree.io/srid0002@algonquinlive.com" role="search">
       <fieldset class="push-none pad-top-half">
@@ -114,15 +122,15 @@
           <hr>
 
           <div class="grid">
-            <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 ">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half push-half">
               <label class="milli s pad-bottom-quarter" for="address">Street Address</label>
               <input id="address" name="address">
             </div>
-            <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 push-quarter island-half push-half">
               <label class="milli s pad-bottom-quarter" for="stadd">City</label>
               <input id="stadd" name="st address">
             </div>
-            <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half push-half">
               <label class="milli s pad-bottom-quarter" for="province">Province</label>
               <select id="province" name="province">
                 <option value="">Select a Province</option>
@@ -386,7 +394,7 @@
         </div>
       </fieldset>
 
-      <div class="text-center pad-top pad-bottom">
+      <div class="text-center pad-top pad-bottom o">
         <button class="btn btn-light push gutter-double pad-top-half pad-bottom-half text-center mega" type="submit">Submit application</button>
       </div>
 
@@ -397,8 +405,8 @@
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
           <ul class="list-group">
             <li class="block micro s"><a href="#about">About</a></li>
-            <li class="block micro s"><a href="available-rescues.html">Pets</a></li>
-            <li class="block micro s"><a href="adopt-a-rescue.html">Adopt</a></li>
+            <li class="block micro s"><a href="rescues.html">Pets</a></li>
+            <li class="block micro s"><a href="adopt.html">Adopt</a></li>
           </ul>
         </div>
 
