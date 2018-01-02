@@ -10,14 +10,14 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Sniglet" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="favicon.png">
+  <link href="favicon-196.png" rel="apple-touch-icon">
+  <link href="favicon.ico" rel="shortcut icon">
 </head>
 
 <body>
 
   <ul class="skip-links">
-    <li><a href="#nav" tabindex="0">Skip to navigation</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
     <li><a href="#main">Skip to main</a></li>
   </ul>
 
@@ -47,7 +47,7 @@
         <img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation">
       </label>
       <input type="checkbox" class="nav-check" id="nav-check">
-      <nav class="nav zindex-3 island-half push-none b" id="nav">
+      <nav class="nav zindex-3 island-half push-none b" id="nav" tabindex="0">
         <ul class="list-group-inline island-double">
           <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a class="tera text-center" href="#about">About</a></li>
           <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="rescues.html">Pets</a></li>
@@ -168,16 +168,6 @@
             <a class="w not-bold micro" href="adopt.html">Adopt Frizzy</a>
           </div>
         </div>
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-3 island-half em age-young">
-          <div class="embed embed-2by3 push">
-            <img class="embed-item" src="images/pet-6.jpg" alt="Small English Mastiff">
-          </div>
-          <p class="kilo s push-none">Breed: English Mastiff</p>
-          <p class="kilo s push-half">Age: 1.2 yrs</p>
-          <div class="btn btn-light o text-center">
-            <a class="w not-bold micro" href="adopt.html">Adopt Cilantro</a>
-          </div>
-        </div>
       </div>
 
     </section>
@@ -210,48 +200,6 @@
     </ul>
 
   </footer>
-
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script>
-    function breedChanged() {
-      var breed = document.getElementById('breed').value;
-
-      if (breed == "all") {
-        $.each($("#breeds").children(), function(i, val) {
-          $(val).removeClass("hidden");
-        })
-      } else {
-        $.each($("#breeds").children(), function(i, val) {
-          if (!$(val).hasClass(breed) && !$(val).hasClass('hidden')) {
-            $(val).addClass('hidden');
-          }
-
-          if ($(val).hasClass(breed) && $(val).hasClass('hidden')) {
-            $(val).removeClass("hidden");
-          }
-        })
-      }
-    }
-
-    function ageChanged() {
-      var age = document.getElementById('ages').value;
-
-      if (age == "all") {
-        $.each($("#breeds").children(), function(i, val) {
-          $(val).removeClass("age-hidden");
-        })
-      } else {
-        $.each($("#breeds").children(), function(i, val) {
-          if (!$(val).hasClass(age) && !$(val).hasClass('age-hidden')) {
-            $(val).addClass('age-hidden');
-          }
-
-          if ($(val).hasClass(age) && $(val).hasClass('age-hidden')) {
-            $(val).removeClass("age-hidden");
-          }
-        })
-      }
-    }</script> -->
 
 </body>
 
