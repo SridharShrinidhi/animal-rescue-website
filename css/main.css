@@ -82,6 +82,10 @@ a:focus {
   outline: none;
 }
 
+.skip-links a:focus {
+  top: 0;
+}
+
 .btn:hover,
 .btn-light:hover {
   background-color: #000;
@@ -179,10 +183,6 @@ main {
   background-color: #000;
   color: #fff;
   padding: .5em .75em;
-}
-
-.skip-links a:focus {
-  top: 0;
 }
 
 input {
