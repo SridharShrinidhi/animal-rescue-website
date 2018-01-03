@@ -113,6 +113,10 @@ a:focus {
   color: #fff;
 }
 
+.nav a:hover {
+  color: #fff;
+}
+
 .nav {
   display: none;
   list-style-type: none;

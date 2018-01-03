@@ -110,7 +110,7 @@
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
             <label class="milli s pad-bottom-quarter" for="name">Full name</label>
-            <input id="name" name="name">
+            <input id="name" name="name" required>
             <p class="italic micro">Your full legal name. e.g. “Elizabeth Bradley”.</p>
           </div>
 
@@ -128,40 +128,39 @@
             <label class="milli s pad-bottom-quarter" for="tel">Phone number</label>
             <input class="box push-none" id="tel" type="tel" name="tel">
           </div>
-          <hr>
+        </div>
 
-          <div class="grid">
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half push-half">
-              <label class="milli s pad-bottom-quarter" for="address">Street Address</label>
-              <input id="address" name="address">
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 push-quarter island-half push-half">
-              <label class="milli s pad-bottom-quarter" for="stadd">City</label>
-              <input id="stadd" name="st address">
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half push-half">
-              <label class="milli s pad-bottom-quarter" for="province">Province</label>
-              <select id="province" name="province">
-                <option value="">Select a Province</option>
-                <option>Alberta</option>
-                <option>British Columbia</option>
-                <option>Manitoba</option>
-                <option>New Brunswick</option>
-                <option>Newfoundland & Labrador</option>
-                <option>Northwest Territories</option>
-                <option>Nova Scotia</option>
-                <option>Nunavut</option>
-                <option>Ontario</option>
-                <option>Prince Edward Island</option>
-                <option>Québec</option>
-                <option>Saskatchewan</option>
-                <option>Yukon</option>
-              </select>
-            </div>
-            <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
-              <label class="milli s pad-bottom-quarter" for="code">Postal code</label>
-              <input class="box push" id="code" name="Postal code">
-            </div>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half push-half">
+            <label class="milli s pad-bottom-quarter" for="address">Street Address</label>
+            <input id="address" name="address">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 push-quarter island-half push-half">
+            <label class="milli s pad-bottom-quarter" for="stadd">City</label>
+            <input id="stadd" name="st address">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 island-half push-half">
+            <label class="milli s pad-bottom-quarter" for="province">Province</label>
+            <select id="province" name="province">
+              <option value="">Select a Province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 push-quarter ">
+            <label class="milli s pad-bottom-quarter" for="code">Postal code</label>
+            <input class="box push" id="code" name="Postal code">
           </div>
         </div>
       </fieldset>
@@ -323,7 +322,7 @@
           </div>
 
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
-            <label class="milli s pad-bottom-quarter" for="tel">Phone number</label>
+            <label class="milli s pad-bottom-quarter" for="tel2">Phone number</label>
             <input class="box push-none" id="tel2" type="tel" name="tel2">
           </div>
 
@@ -351,7 +350,7 @@
           </div>
 
           <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
-            <label class="milli s pad-bottom-quarter" for="tel">Phone number</label>
+            <label class="milli s pad-bottom-quarter" for="tel3">Phone number</label>
             <input class="box push-none" id="tel3" type="tel" name="tel3">
           </div>
 
@@ -382,7 +381,6 @@
             <label class="milli s pad-bottom-quarter" for="tel4">Phone number </label>
             <input class="box push-none" id="tel4" type="tel" name="tel4">
           </div>
-          <hr>
 
           <div class="island-half push-half unit xs-1 s-1 m-1-2 l-1-2 ">
             <label class="milli s pad-bottom-quarter" for="address4">Street Address</label>
