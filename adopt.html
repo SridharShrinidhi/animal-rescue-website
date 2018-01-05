@@ -17,7 +17,7 @@
 <body>
 
   <ul class="skip-links">
-    <li><a href="#nav" tabindex="0">Skip to navigation</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
     <li><a href="#main">Skip to main</a></li>
   </ul>
 
@@ -44,11 +44,11 @@
         <img class="text-center pad-t-1-2 pad-b push" src="images/bars-logo.svg" alt="BARS logo">
       </a>
 
-      <label class="nav-label pin-tr pad-top gutter-half" for="nav-check">
+      <label aria-label="Toggle navigation icon" class="nav-label pin-tr pad-top gutter-half" for="nav-check">
         <img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation">
       </label>
       <input type="checkbox" class="nav-check" id="nav-check">
-      <nav class="nav zindex-3 island-half push-none b" id="nav">
+      <nav class="nav zindex-3 island-half push-none b" id="nav" tabindex="0">
         <ul class="list-group-inline island-double">
           <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a class="tera text-center" href="#about">About</a></li>
           <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="rescues.html">Pets</a></li>

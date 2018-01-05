@@ -17,7 +17,7 @@
 <body>
 
   <ul class="skip-links">
-    <li><a href="#nav" tabindex="0">Skip to navigation</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
     <li><a href="#main">Skip to main</a></li>
   </ul>
 
@@ -43,7 +43,7 @@
       <a aria-label="Link to the homepage" class="absolute pin-tl icon i-96 none" href="index.html">
         <img class="text-center pad-t-1-2 pad-b push" src="images/bars-logo.svg" alt="BARS logo">
       </a>
-      <label class="nav-label pin-tr pad-top gutter-half" for="nav-check"><img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation"></label>
+      <label aria-label="Toggle navigation icon" class="nav-label pin-tr pad-top gutter-half" for="nav-check"><img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation"></label>
       <input type="checkbox" class="nav-check" id="nav-check">
       <nav class="nav zindex-3 island-half push-none b">
         <ul class="list-group-inline island-double">
@@ -59,7 +59,7 @@
 
   </header>
 
-  <main role="main" id="main">
+  <main role="main" id="main" tabindex="0">
     <div class="embed embed-3by2">
       <img class="embed-item img-flex" src="images/banner.jpg" alt="Girl holding a dog">
     </div>
