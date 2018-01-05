@@ -83,7 +83,8 @@ a:focus {
 }
 
 .current {
-  color: #eb8a53;
+  text-decoration: overline;
+  text-decoration-color: #eb8a53;
 }
 
 .skip-links {
@@ -101,7 +102,7 @@ a:focus {
 }
 
 nav a:hover {
-  text-decoration: line-through;
+  color: #eb8a53;
 }
 
 .skip-links a:focus {
