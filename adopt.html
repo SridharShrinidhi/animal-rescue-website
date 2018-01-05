@@ -24,38 +24,35 @@
   <header role="banner">
 
     <div class="hide">
-      <a class="absolute pin-tc icon i-96" href="index.html">
+      <a aria-label="Links to homepage" class="absolute pin-tc icon i-96" href="index.html">
         <img class="text-center pad-t-1-2 pad-b push " src="images/bars-logo.svg" alt="BARS logo">
       </a>
-      <nav class="zindex-3 pad-top-half push-none" role="navigation">
+      <nav role="navigation" class="zindex-3 pad-top-half push-none" id="nav" tabindex="0">
         <ul class="text-center list-group-inline">
-          <li class="list-group-item"><a class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
-          <li class="list-group-item"><a class="c mega list2 gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
-          <li class="list-group-item"><a class="c mega list3 gutter-half pad-t pad-b current" href="adopt.html">ADOPT</a></li>
-          <li class="list-group-item"><a class="c mega list4 gutter-half pad-t pad-b" href="#index.html">DONATE</a></li>
-          <li class="list-group-item"><a class="c mega list5 gutter-half pad-t pad-b" href="#index.html">FAQ</a></li>
-          <li class="list-group-item"><a class="c mega list6 gutter-half pad-t pad-b" href="#index.html">SHOP</a></li>
+          <li class="list-group-item"><a aria-label="Read more about the rescue centre" class="c mega list1 gutter-half pad-t pad-b" href="#about">ABOUT</a></li>
+          <li class="list-group-item"><a aria-label="Find available rescues" class="c mega list2 gutter-half pad-t pad-b" href="rescues.html">PETS</a></li>
+          <li class="list-group-item"><a aria-label="Adopt a rescue" class="c mega list3 gutter-half pad-t pad-b" href="adopt.html">ADOPT</a></li>
+          <li class="list-group-item"><a aria-label="Donate to the rescue" class="c mega list4 gutter-half pad-t pad-b" href="#index.html">DONATE</a></li>
+          <li class="list-group-item"><a aria-label="Frequenty asked questions" class="c mega list5 gutter-half pad-t pad-b" href="#index.html">FAQ</a></li>
+          <li class="list-group-item"><a aria-label="Shop their merchandise" class="c mega list6 gutter-half pad-t pad-b" href="#index.html">SHOP</a></li>
         </ul>
       </nav>
     </div>
 
     <div class="absolute w-1 pin-tr zindex-3 small visible">
-      <a class="absolute pin-tl icon i-96 none" href="index.html">
+      <a aria-label="Link to the homepage" class="absolute pin-tl icon i-96 none" href="index.html">
         <img class="text-center pad-t-1-2 pad-b push" src="images/bars-logo.svg" alt="BARS logo">
       </a>
-
-      <label aria-label="Toggle navigation icon" class="nav-label pin-tr pad-top gutter-half" for="nav-check">
-        <img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation">
-      </label>
+      <label aria-label="Toggle navigation icon" class="nav-label pin-tr pad-top gutter-half" for="nav-check"><img class="nav-logo" src="images/nav-icon.svg" alt="Open navigation"></label>
       <input type="checkbox" class="nav-check" id="nav-check">
-      <nav class="nav zindex-3 island-half push-none b" id="nav" tabindex="0">
+      <nav class="nav zindex-3 island-half push-none b">
         <ul class="list-group-inline island-double">
-          <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a class="tera text-center" href="#about">About</a></li>
-          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="rescues.html">Pets</a></li>
-          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="adopt-a-rescue">Adopt</a></li>
-          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a class="tera text-center" href="#index.html">Donate</a></li>
-          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#index.html">FAQ</a></li>
-          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a class="tera text-center" href="#index.html">Shop</a></li>
+          <li class="list-group-item gutter-double text-center pad-t-2 pad-bottom-half"><a aria-label="Read more about the rescue centre" class="tera text-center" href="#about">About</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a aria-label="Available rescues" class="tera text-center" href="rescues.html">Pets</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a aria-label="Adopt a rescue" class="tera text-center" href="adopt-a-rescue">Adopt</a></li>
+          <li class="list-group-item gutter-double text-center pad-top-half pad-bottom-half"><a aria-label="Doante to the rescue" class="tera text-center" href="#index.html">Donate</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a aria-label="Frequently asked questions" class="tera text-center" href="#index.html">FAQ</a></li>
+          <li class="list-group-item gutter pad-top-half pad-bottom-half"><a aria-label="Shop their merchandise" class="tera text-center" href="#index.html">Shop</a></li>
         </ul>
       </nav>
     </div>
@@ -174,32 +171,40 @@
           <input id="no1" type="radio" name="leftalone">
           <label class="s gutter-half" for="no1">No</label>
         </div>
+      </fieldset>
 
-        <p class="s push-half gutter-half bold milli">Are you willing to hire a dog/walker or use doggie day care?</p>
+      <fieldset>
+        <legend class="s push-half gutter-half bold milli">Are you willing to hire a dog/walker or use doggie day care?</legend>
         <div class="push-double pad-bottom-half">
           <input id="yes2" type="radio" name="daycare">
           <label class="s gutter-half" for="yes2">Yes</label>
           <input class="box" id="no2" type="radio" name="daycare ">
           <label class="s gutter-half" for="no2">No</label>
         </div>
+      </fieldset>
 
-        <p class="s push-half gutter-half bold milli">Are you willing to give the dog a good long walk at least twice a day - everyday?</p>
+      <fieldset>
+        <legend class="s push-half gutter-half bold milli">Are you willing to give the dog a good long walk at least twice a day - everyday?</legend>
         <div class="push-double pad-bottom-half">
           <input id="yes3" type="radio" name="longwalk">
           <label class="s gutter-half" for="yes3">Yes</label>
           <input class="box" id="no3" type="radio" name="longwalk">
           <label class="s gutter-half" for="no3">No</label>
         </div>
+      </fieldset>
 
-        <p class="s push-half gutter-half bold milli">Does anyone in your home suffer from allergies?</p>
+      <fieldset>
+        <legend class="s push-half gutter-half bold milli">Does anyone in your home suffer from allergies?</legend>
         <div class="push-double pad-bottom-half">
           <input id="yes4" type="radio" name="allergies">
           <label class="s gutter-half" for="yes4">Yes</label>
           <input class="box" id="no4" type="radio" name="allergies">
           <label class="s gutter-half" for="no4">No</label>
         </div>
+      </fieldset>
 
-        <p class="s push-half gutter-half bold milli">Where will your dog stay during the day?</p>
+      <fieldset class="push-none pad-top-half">
+        <legend class="s push-half gutter-half bold milli">Where will your dog stay during the day?</legend>
         <div class="grid push-half">
           <div class="unit xs-1 s-1 m-1-2 l-1-2">
             <input id="inside" type="checkbox">
@@ -289,15 +294,20 @@
             <label class="gutter-half milli s push-quarter" for="noyard">No yard</label>
           </div>
         </div>
+      </fieldset>
 
-        <p class="s push-half gutter-half bold milli">Do you :</p>
+      <fieldset class="push-none pad-top-half">
+        <legend class="s push-half gutter-half bold milli">Do you :</legend>
         <div class="push-double pad-bottom-half">
           <input id="yes5" type="radio" name="own">
           <label class="s gutter-half" for="yes5">Own</label>
           <input id="no5" type="radio" name="own">
           <label class="s gutter-half" for="no5">Rent</label>
         </div>
-        <p class="s push-half gutter-half bold milli">Do you have your landlord’s/strata’s permission to have pets?</p>
+      </fieldset>
+
+      <fieldset>
+        <legend class="s push-half gutter-half bold milli">Do you have your landlord’s/strata’s permission to have pets?</legend>
         <div class="push-double pad-bottom-half">
           <input id="yes6" type="radio" name="permission">
           <label class="s gutter-half" for="yes6">Yes</label>
@@ -391,7 +401,6 @@
             <input id="stadd4" name="st address4">
           </div>
         </div>
-
       </fieldset>
 
       <article>
@@ -426,9 +435,9 @@
         </div>
       </div>
       <ul class="list-group-inline text-center push-none pad-b">
-        <li class="text-center micro s gutter"><a href="#">facebook</a></li>
-        <li class="text-center micro s gutter"><a href="#">instagram</a></li>
-        <li class="text-center micro s gutter"><a href="#">twitter</a></li>
+        <li class="text-center micro s gutter"><a href="#index.html">facebook</a></li>
+        <li class="text-center micro s gutter"><a href="#index.html">instagram</a></li>
+        <li class="text-center micro s gutter"><a href="#index.html">twitter</a></li>
       </ul>
 
     </footer>

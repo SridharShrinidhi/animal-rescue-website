@@ -100,6 +100,10 @@ a:focus {
   padding: .5em .75em;
 }
 
+nav a:hover {
+  color: #fff;
+}
+
 .skip-links a:focus {
   top: 0;
 }
@@ -110,10 +114,6 @@ a:focus {
 }
 
 .btn a:hover {
-  color: #fff;
-}
-
-nav a:hover {
   color: #fff;
 }
 
