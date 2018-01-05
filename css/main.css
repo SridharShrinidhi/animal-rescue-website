@@ -83,7 +83,7 @@ a:focus {
 }
 
 .current {
-  text-decoration: underline;
+  color: #eb8a53;
 }
 
 .skip-links {
@@ -101,7 +101,7 @@ a:focus {
 }
 
 nav a:hover {
-  color: #fff;
+  text-decoration: line-through;
 }
 
 .skip-links a:focus {
@@ -121,11 +121,9 @@ nav a:hover {
   display: none;
   list-style-type: none;
   text-align: center;
-  padding: 0;
   font-family: "Caveat Brush", cursive;
   background-color: rgba(235, 138, 83, 1);
-  height: 50vh;
-  margin: 0 auto;
+  height: 65vh;
 }
 
 .nav-check {
@@ -143,7 +141,11 @@ nav a:hover {
 }
 
 [type="checkbox"] + label::before {
-  display: none;
+  border: 2px solid #eb8a53;
+}
+
+[type="radio"] + label::before {
+  border: 2px solid #eb8a53;
 }
 
 .nav-label {
@@ -175,8 +177,8 @@ main {
 
 .text {
   position: absolute;
-  top: 5em;
-  right: 3em;
+  top: 8em;
+  right: 1em;
   color: #fff;
 }
 
@@ -192,8 +194,10 @@ main {
   display: none;
 }
 
-input {
-  border: 3px solid #eb8a53;
+input,
+textarea,
+select {
+  border: 2px solid #eb8a53;
   border-radius: 3px;
 }
 
@@ -214,13 +218,13 @@ input {
 
   .banner-text {
     position: absolute;
-    top: 4em;
-    left: 2em;
+    top: 7.5em;
+    left: 3.5em;
   }
 
   .s-btn {
     position: absolute;
-    top: 10.5rem;
+    top: 13rem;
     left: 4em;
   }
 
@@ -233,7 +237,7 @@ input {
   }
 
   header {
-    min-height: 80px;
+    min-height: 120px;
   }
 
 }
@@ -242,13 +246,13 @@ input {
 
   .banner-text {
     position: absolute;
-    top: 6em;
+    top: 9em;
     left: 2em;
   }
 
   .s-btn {
     position: absolute;
-    top: 5rem;
+    top: 3rem;
     left: 1em;
   }
 
@@ -272,6 +276,19 @@ input {
     display: none;
   }
 
+  .text {
+    position: absolute;
+    top: 10em;
+    right: 4em;
+    color: #fff;
+  }
+
+  .s-btn {
+    position: absolute;
+    top: 4rem;
+    left: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -282,6 +299,17 @@ input {
 
   .h {
     display: block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .text {
+    position: absolute;
+    top: 15em;
+    right: 8em;
+    color: #fff;
   }
 
 }
