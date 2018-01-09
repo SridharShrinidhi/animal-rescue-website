@@ -105,7 +105,7 @@ nav a:hover {
   color: #eb8a53;
 }
 
-.nav a:hover {
+.h a:hover {
   color: #fff;
 }
 
@@ -122,7 +122,11 @@ nav a:hover {
   color: #fff;
 }
 
-.nav {
+footer a:hover {
+  color: #fff;
+}
+
+.h {
   display: none;
   list-style-type: none;
   text-align: center;
