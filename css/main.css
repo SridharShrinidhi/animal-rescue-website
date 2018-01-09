@@ -79,6 +79,10 @@ a:focus,
   outline: 2px solid #eb8a53;
 }
 
+footer a:focus {
+  color: #fff;
+}
+
 .current {
   text-decoration: overline;
   text-decoration-color: #eb8a53;
