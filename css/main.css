@@ -101,12 +101,12 @@ a:focus {
   color: #fff;
 }
 
-.h a:hover {
-  color: #fff;
-}
-
 nav a:hover {
   color: #eb8a53;
+}
+
+.nav a:hover {
+  color: #fff;
 }
 
 .skip-links a:focus {
