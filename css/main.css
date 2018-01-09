@@ -74,7 +74,8 @@ li {
   color: #000;
 }
 
-a:focus {
+a:focus,
+[tabindex="0"]:focus {
   outline: 2px solid #eb8a53;
 }
 
