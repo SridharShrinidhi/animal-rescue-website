@@ -97,6 +97,10 @@ a:focus {
   padding: .5em .75em;
 }
 
+footer a:hover {
+  color: #fff;
+}
+
 .w {
   color: #fff;
 }
@@ -105,8 +109,8 @@ nav a:hover {
   color: #eb8a53;
 }
 
-.h a:hover {
-  color: #fff;
+.nav a:hover {
+  color: #f2f2f2;
 }
 
 .skip-links a:focus {
@@ -122,11 +126,7 @@ nav a:hover {
   color: #fff;
 }
 
-footer a:hover {
-  color: #fff;
-}
-
-.h {
+.nav {
   display: none;
   list-style-type: none;
   text-align: center;
