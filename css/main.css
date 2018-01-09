@@ -79,10 +79,6 @@ a:focus,
   outline: 2px solid #eb8a53;
 }
 
-footer a:focus {
-  color: #fff;
-}
-
 .current {
   text-decoration: overline;
   text-decoration-color: #eb8a53;
@@ -100,6 +96,10 @@ footer a:focus {
   background-color: #000;
   color: #fff;
   padding: .5em .75em;
+}
+
+footer a:focus {
+  color: #fff;
 }
 
 footer a:hover {
